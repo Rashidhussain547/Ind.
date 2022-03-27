@@ -1,0 +1,87 @@
+.footerMain{
+    background-color: rgb(15, 15, 15);
+    padding: 150px;
+    width: 100.7%;
+    height: 80vh;
+    background-attachment: fixed;
+    .footer-col1{
+        .footerLogoimg{
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        color: #919191;
+        h3{
+            color: #fff;
+        }
+        .footer-Con-text{
+            display: flex;
+            line-height: 35px;
+        }
+        .s-icon{
+            a{
+                margin: 20px;
+                color: #ffff;
+                transition: all ease 0.3s;
+            }
+            a:hover{
+                color: #fdc94b;
+                transition: all ease 0.3s;
+            }
+        }
+    }
+    .footer-col2{
+        h3{
+            color: #fff;
+        }
+        ul li a{
+            line-height: 40px;
+            text-decoration: none;
+            color: #919191;
+        }
+    }
+    .footer-col3{
+        h3{
+            color: #fff;
+        }
+        form input{
+            border: 1px solid #313131;
+            background-color: transparent;
+            padding: 15px;
+            border-radius: 0px;
+            margin-top: 15px;
+            color: #ffff;
+        }
+        form textarea{
+            height: 150px;
+            border: 1px solid #313131;
+            border-radius: 0px;
+            margin-top: 15px;
+            background-color: transparent;
+            color: #fff;
+        }
+        .formBtn{
+            .cont-btn {
+                margin-top: 15px;
+                padding: 12px 60px;
+                margin-right: 15px;
+                border: none;
+                border-radius: 0px;
+                background-color: #fdc94b;
+                color: #ffff;
+                font-weight: 500;
+                transition: all ease 0.4s;
+              }
+              .cont-btn:hover {
+                background-color: #ffff;
+                color: black;
+                transition: all ease 0.4s;
+              }
+        }
+    }
+}
+.copyRight{
+    text-align: center;
+    padding: 10px;
+    background-color: #313131;
+    color: #fdc94b;
+}

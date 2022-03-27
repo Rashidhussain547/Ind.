@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Oswald-DemiBold;
+  src: url("./webfonts/Oswald-DemiBold.ttf"); }
+
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url("./webfonts/Quicksand-Medium.ttf"); }
+
+@font-face {
+  font-family: Quicksand-Regular;
+  src: url("./webfonts/Quicksand-Regular.ttf"); }
+
+@font-face {
+  font-family: Oswald-Medium;
+  src: url("./webfonts/Oswald-Medium.ttf"); }
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-base: #91c63e;
+  --color-base-c: #c9f780;
+  --color-gray: #dedede;
+  --grar-e4: #e4e4e4;
+  --color-d-gray: #757575;
+  --color-u-gray: #666;
+  --color-blue: #086AD8;
+  --color-l-gray: #f3f7fd;
+  --text-Deco: "none";
+  --font-family: Oswald-DemiBold;
+  --font-Quicksand-Regular: Quicksand-Regular;
+  --font-Quicksand-Medium: Quicksand-Medium;
+  --font-Oswald-Medium: Oswald-Medium;
+  --box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 4%); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family);
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  font-family: var(--font-Quicksand-Regular); }

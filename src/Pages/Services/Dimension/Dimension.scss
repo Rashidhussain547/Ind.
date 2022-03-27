@@ -1,0 +1,33 @@
+.Service-main {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .Service-main-title{
+      margin-bottom: 10px;
+      h2{
+        color: #fdc94b;
+      }
+    }
+    .Service-img {
+      img {
+        width: 500px;
+        margin-left: 100px;
+      }
+    }
+    .Service-points {
+        h5{
+            color: #fdc94b;
+            font-weight: bold;
+        }
+      .left-point {
+        display: flex;
+        line-height: 35px;
+        i {
+          color: #2b2a28;
+        }
+        .left-point-para{
+          margin-left: 10px;
+      }
+      }
+    }
+  }
+  

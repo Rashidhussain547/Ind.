@@ -1,0 +1,45 @@
+.srvc-main {
+  margin-top: 100px;
+  .srvc-btn {
+    padding: 10px 30px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fdc94b;
+    color: #ffff;
+    font-weight: 500;
+    transition: all ease 0.4s;
+  }
+  .srvc-btn:hover {
+    background-color: #ffff;
+    color: black;
+    transition: all ease 0.4s;
+  }
+  .servc-1 {
+    margin-left: -25px;
+    width: auto;
+    .srvc-1-dscrpt {
+      background-color: #313131;
+      color: #ffff;
+      padding: 80px;
+      justify-content: end;
+    //   text-align: center;
+      h1 {
+        font-weight: bold;
+      }
+    }
+  }
+  .srvc-2-dscrpt {
+    background-color: #313131;
+    color: #ffff;
+    padding: 80px;
+    justify-content: end;
+    // text-align: center;
+    h1 {
+      font-weight: bold;
+    }
+  }
+  .srvc-2-img {
+    margin-left: -12px;
+  }
+}

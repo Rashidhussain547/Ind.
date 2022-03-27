@@ -1,0 +1,27 @@
+.grid-row {
+  display: flex;
+  align-items: center; }
+  .grid-row .col-1 {
+    width: 10%; }
+  .grid-row .col-2 {
+    width: 20%; }
+  .grid-row .col-3 {
+    width: 33%; }
+  .grid-row .col-4 {
+    width: 40%; }
+  .grid-row .col-5 {
+    width: 50%; }
+  .grid-row .col-6 {
+    width: 49%; }
+  .grid-row .col-7 {
+    width: 49%; }
+  .grid-row .col-8 {
+    width: 60%; }
+  .grid-row .col-9 {
+    width: 70%; }
+  .grid-row .col-10 {
+    width: 80%; }
+  .grid-row .col-11 {
+    width: 90%; }
+  .grid-row .col-12 {
+    width: 100%; }

@@ -1,0 +1,40 @@
+.About-main{
+    display: flex;
+    margin-top: 100px;
+    .About-mainLeft{
+        color: #919191;
+        margin-top: 20px;
+        h1::after{
+            content: '';
+            background-color: #fdc94b;
+            display: block;
+            width: 40px;
+            height: 3px;
+            margin-top: 5px;
+        }
+        h1{
+            font-weight: bold;
+            color: black;
+        }
+        p{
+            margin-top: 20px;
+        }
+        .left-point{
+            display: flex;
+            line-height: 35px;
+            i{
+                color: #2b2a28;
+            }
+        }
+        .left-point-para{
+            margin-left: 10px;
+        }
+    }
+    .About-mainRight{
+        img{
+            width: 600px;
+            margin-left: 50px;
+            padding-top: 100px;
+        }
+    }
+}

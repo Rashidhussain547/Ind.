@@ -1,0 +1,58 @@
+.topBar {
+  padding: 10px 25px;
+  background: var(--color-base); }
+  .topBar .topAddress span {
+    color: var(--color-white); }
+    .topBar .topAddress span.iconTopBar {
+      margin-right: 10px; }
+    .topBar .topAddress span.saprater {
+      height: 14px;
+      width: 1px;
+      background: var(--color-white);
+      padding: 0px 0px;
+      margin: 0 10px 0px 5px;
+      display: inline-block; }
+
+.AppHeaderNavigation {
+  background-color: var(--color-white);
+  padding: 10px 25px;
+  box-shadow: var(--box-shadow);
+  border-bottom: 1px solid var(--grar-e4); }
+  .AppHeaderNavigation .logo {
+    width: 250px; }
+    .AppHeaderNavigation .logo .AppLogo {
+      width: 100%; }
+  .AppHeaderNavigation .app-navigation {
+    text-align: center; }
+    .AppHeaderNavigation .app-navigation ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px; }
+      .AppHeaderNavigation .app-navigation ul li {
+        display: inline-block;
+        font-size: 14px;
+        color: #444;
+        padding: 10px 20px;
+        font-weight: bold; }
+        .AppHeaderNavigation .app-navigation ul li a {
+          color: var(--color-black);
+          text-decoration: var(--textDeco); }
+
+.call-right {
+  display: flex;
+  justify-content: flex-end; }
+  .call-right .phoneImage {
+    background: url("../../assets/images/call.png") no-repeat center center;
+    height: 48px;
+    width: 67px;
+    background-size: contain;
+    border-right: 1px solid var(--grar-e4);
+    margin-right: 10px; }
+  .call-right .phoneNumer span {
+    font-size: 16px;
+    color: var(--color-d-gray);
+    font-family: var(--font-Oswald-Medium);
+    margin: 0px;
+    padding: 0px; }
+  .call-right .phoneNumer h4 {
+    font-family: var(--font-Oswald-Medium); }

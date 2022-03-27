@@ -1,0 +1,23 @@
+.navbar-main{
+    background-color: #fff;
+    padding-left: 10px;
+    text-align: center;
+    .nav-logo{
+        img{
+            width: 100px;
+        } 
+    }
+    .navigation{
+        margin-left: 400px;
+        a{
+            display: inline-block;
+            text-decoration: none;
+            margin-right: 15px;
+            text-align: center;
+            color: #000;
+        }
+    }
+}
+.title{
+
+}

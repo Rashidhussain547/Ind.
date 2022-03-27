@@ -1,0 +1,50 @@
+.teams {
+  padding-top: 100px;
+  background-color: #fff;
+  padding-bottom: 100px;
+  .team-main {
+    .card {
+      border: none;
+      img {
+        -webkit-transition: all 2s ease;
+        -moz-transition: all 2s ease;
+        -ms-transition: all 2s ease;
+        transition: all 0.7s ease;
+      }
+      img:hover {
+        z-index: 0.3;
+        transform: scale(1.04);
+        cursor: pointer;
+      }
+      .card-body {
+        text-align: center;
+        justify-content: center;
+        h5 {
+          font-weight: bold;
+          font-size: 17px;
+          line-height: 20px;
+        }
+        span {
+          font-weight: bold;
+          font-size: 13px;
+          color: #fdc94b;
+        }
+        p {
+          color: #919191;
+        }
+        .s-icons{
+            a{
+                text-decoration: none;
+                color: #919191;
+                margin: 20px;
+                transition: all 0.3s ease;
+            }
+            a:hover{
+                color: #fdc94b;
+                transition: all 0.3s ease;
+            }
+        }
+      }
+    }
+  }
+}
